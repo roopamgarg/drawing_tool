@@ -1,0 +1,30 @@
+.tool{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem 0 1rem 0;
+    background-color: #fff;
+
+    transition: all 0.2s;
+    &:hover{
+        background-color: rgba(#000,0.1);
+    }
+    img{
+        height: 1.6rem;
+    }
+    &__sub-option{
+        position: absolute;
+        transform: translateY(-50%);
+        margin-left: 4.5rem;
+        &__hide{
+            padding: 1rem 0 0.5rem 0;
+            background-color: #fff;
+            text-align: center;
+            border-bottom: 2px solid #000;
+            img{
+                height: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

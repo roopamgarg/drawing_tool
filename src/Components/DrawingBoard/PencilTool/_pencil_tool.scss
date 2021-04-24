@@ -1,0 +1,23 @@
+.pencil-tool{
+    position: relative;
+    z-index: 10;
+    &__slider{
+        background-color: #fff;
+
+    }
+    &__colors{
+        background-color: #fff;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1rem;
+        
+    }
+    &__color{
+        border-radius: 200rem;
+        height: 2rem;
+        width: 2rem;
+        border: 2px solid rgba(#000,0.1);
+        cursor: pointer;
+    }
+}
